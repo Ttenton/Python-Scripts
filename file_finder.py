@@ -13,9 +13,11 @@ def finder(name_or_ext, start_dir):
 
 
 def main():
-    search = input('Enter file name or extention: ')
+    search = input('Enter file name or ext: ')
     start_dir = input('Enter start directory: ')
     finder(search, start_dir)
+    
+
 
 
 
